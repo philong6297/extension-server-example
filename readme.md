@@ -33,7 +33,7 @@ In which:
 - **`appid`**: The ID of the extension.
 - **`codebase`**: The URL pointing to the CRX file.
 - **`version`**: The version of the updated extension.
-1. Chrome has strict requirements to allow downloading an extension. One of them is that the extension file must be served with the correct MIME type. In this example, we can use the `staticwebapp.config.json` file to instruct Azure Static Web App which MIME type it must use for the `.crx` file:
+3. Chrome has strict requirements to allow downloading an extension. One of them is that the extension file must be served with the correct MIME type. In this example, we can use the `staticwebapp.config.json` file to instruct Azure Static Web App which MIME type it must use for the `.crx` file:
 
 ```json
   "mimeTypes": {
